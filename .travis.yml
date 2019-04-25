@@ -1,0 +1,24 @@
+language: go
+
+matrix:
+  fast_finish: true
+  include:
+    - go: 1.11.x
+      env: GO111MODULE=on GOFLAGS='-mod=vendor'
+    - go: 1.12.2
+      env: GO111MODULE=on GOFLAGS='-mod=vendor'
+
+git:
+  depth: 5
+
+install: true
+
+notifications:
+  email: false
+
+before_script:
+  - curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s -- -b $(go env GOPATH)/bin v1.16.0
+
+script:
+  - golangci-lint run
+  - go test -v -race ./...

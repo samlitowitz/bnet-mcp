@@ -1,0 +1,10 @@
+github.com/go-test/deep v1.0.1/go.mod h1:wGDj63lr65AM2AQyKZd/NYHGb0R+1RLqB8NKt3aSFNA=
+github.com/samlitowitz/bnet-encoding v0.0.0-20190425132139-0d267bab7fd6 h1:t/9xxnhY8WYyHCCU4zEYKJCN70UjzYtihV10/Pi7UHU=
+github.com/samlitowitz/bnet-encoding v0.0.0-20190425132139-0d267bab7fd6/go.mod h1:nlL+bqqk0Jc586i5WVHOrewhVMqwR/s66NDexoZb++0=
+golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
+golang.org/x/net v0.0.0-20190311183353-d8887717615a/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
+golang.org/x/sync v0.0.0-20190423024810-112230192c58/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
+golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
+golang.org/x/tools v0.0.0-20190425222232-4eab536980eb h1:bfALezcsluOUL2Q/N6/Oj7aSNwkV1CVAVazQTjOg29E=
+golang.org/x/tools v0.0.0-20190425222232-4eab536980eb/go.mod h1:RgjU9mgBXZiqYHBnxXauZ1Gv1EHHAz9KjViQ78xBX0Q=
